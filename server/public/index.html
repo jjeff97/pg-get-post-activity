@@ -7,9 +7,27 @@
     <title>Document</title>
     <script src="vendors/jquery.js"></script>
     <script src="scripts/client.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <h1>Bookstore Database</h1>
+
+    <h2>Famous Books</h2>
+    <input type="text" id="title" placeholder="Book title">
+    <input type="text" id="author" placeholder="Book author">
+    <input type="text" id="published" placeholder="Year published">
+    <button id="submit-book">Submit Book</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Published</th>
+            </tr>
+        </thead>
+        <tbody id="bookTableBody">
+
+        </tbody>
+    </table>
 </body>
 </html>
